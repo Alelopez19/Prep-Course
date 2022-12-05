@@ -200,6 +200,7 @@ for(let i=0; i<array.length; i++){
 } if(meses.length === 3){
   return meses
 } else return 'No se encontraron los meses pedidos'
+
 };
 
 function mayorACien(array) {
