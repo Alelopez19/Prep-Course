@@ -150,7 +150,7 @@ var descuentoTotal = 0;
     descuentoTotal = producto.precio - (producto.precio * producto.porcentajeDeDescuento)
     return descuentoTotal
   } 
-  return producto;
+ return producto;
 }
 
 // No modificar nada debajo de esta línea
