@@ -1,9 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 h1 {
     color: blue;
 }
 img{
     width: 250px;
 }
+
 #thirdDiv{
     background-color: blue;
     height: 600px;
@@ -16,3 +22,9 @@ img{
     font-size: 18px;
     margin: 50px;
 }
+
+body {
+    background-image: url(https://www.diariopanorama.com/fotos/notas/2022/12/18/messi-copa-mundo-434423-200415.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
